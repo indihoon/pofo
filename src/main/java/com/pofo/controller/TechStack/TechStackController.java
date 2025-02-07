@@ -13,14 +13,3 @@ public class TechStackController {
 }
 
 
-package com.pofo.controller;
-
-@RestController  // ✅ @Controller → @RestController 변경
-@RequestMapping("/home")
-public class HelloController {
-
-    @GetMapping("/message")
-    public String getGreeting() {
-        return "Hello, Client!";
-    }
-}
